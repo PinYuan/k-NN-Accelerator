@@ -1,0 +1,196 @@
+Archive member included to satisfy reference by file (symbol)
+
+/users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(divdf3.o)
+                              firmware/knn_pcpi.o (__divdf3)
+/users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldf3.o)
+                              firmware/knn_pcpi.o (__muldf3)
+/users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(fixunsdfsi.o)
+                              firmware/knn_pcpi.o (__fixunsdfsi)
+/users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(floatsidf.o)
+                              firmware/knn_pcpi.o (__floatsidf)
+/users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldi3.o)
+                              firmware/knn_pcpi.o (__mulsi3)
+/users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(div.o)
+                              firmware/print.o (__udivsi3)
+/users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clzsi2.o)
+                              /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(divdf3.o) (__clzsi2)
+/users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clz.o)
+                              /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clzsi2.o) (__clz_tab)
+
+Discarded input sections
+
+ .debug_frame   0x0000000000000000       0xa8 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(divdf3.o)
+ .debug_info    0x0000000000000000      0x6d6 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(divdf3.o)
+ .debug_abbrev  0x0000000000000000      0x170 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(divdf3.o)
+ .debug_loc     0x0000000000000000     0x1016 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(divdf3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(divdf3.o)
+ .debug_ranges  0x0000000000000000      0x148 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(divdf3.o)
+ .debug_line    0x0000000000000000      0x4f2 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(divdf3.o)
+ .debug_str     0x0000000000000000      0x403 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(divdf3.o)
+ .debug_frame   0x0000000000000000       0xa8 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldf3.o)
+ .debug_info    0x0000000000000000      0x70d /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldf3.o)
+ .debug_abbrev  0x0000000000000000      0x177 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldf3.o)
+ .debug_loc     0x0000000000000000      0xe40 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldf3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldf3.o)
+ .debug_ranges  0x0000000000000000      0x1a0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldf3.o)
+ .debug_line    0x0000000000000000      0x374 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldf3.o)
+ .debug_str     0x0000000000000000      0x45b /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldf3.o)
+ .debug_frame   0x0000000000000000       0x20 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(fixunsdfsi.o)
+ .debug_info    0x0000000000000000      0x1ec /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(fixunsdfsi.o)
+ .debug_abbrev  0x0000000000000000      0x168 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(fixunsdfsi.o)
+ .debug_loc     0x0000000000000000       0xef /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(fixunsdfsi.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(fixunsdfsi.o)
+ .debug_ranges  0x0000000000000000       0x20 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(fixunsdfsi.o)
+ .debug_line    0x0000000000000000      0x15a /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(fixunsdfsi.o)
+ .debug_str     0x0000000000000000      0x257 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(fixunsdfsi.o)
+ .debug_frame   0x0000000000000000       0x54 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(floatsidf.o)
+ .debug_info    0x0000000000000000      0x297 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(floatsidf.o)
+ .debug_abbrev  0x0000000000000000      0x158 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(floatsidf.o)
+ .debug_loc     0x0000000000000000      0x134 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(floatsidf.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(floatsidf.o)
+ .debug_ranges  0x0000000000000000       0x60 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(floatsidf.o)
+ .debug_line    0x0000000000000000      0x151 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(floatsidf.o)
+ .debug_str     0x0000000000000000      0x2ee /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(floatsidf.o)
+ .debug_line    0x0000000000000000       0xb7 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldi3.o)
+ .debug_info    0x0000000000000000       0xe2 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldi3.o)
+ .debug_abbrev  0x0000000000000000       0x14 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldi3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldi3.o)
+ .debug_line    0x0000000000000000      0x18d /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(div.o)
+ .debug_info    0x0000000000000000       0xdf /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(div.o)
+ .debug_abbrev  0x0000000000000000       0x14 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(div.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(div.o)
+ .debug_frame   0x0000000000000000       0x20 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clzsi2.o)
+ .debug_info    0x0000000000000000      0xaf9 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x0000000000000000      0x207 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clzsi2.o)
+ .debug_loc     0x0000000000000000       0x6b /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clzsi2.o)
+ .debug_ranges  0x0000000000000000       0x18 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clzsi2.o)
+ .debug_line    0x0000000000000000      0x33c /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clzsi2.o)
+ .debug_str     0x0000000000000000      0x784 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clzsi2.o)
+ .debug_info    0x0000000000000000      0xa92 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clz.o)
+ .debug_abbrev  0x0000000000000000      0x1b5 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clz.o)
+ .debug_aranges
+                0x0000000000000000       0x18 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clz.o)
+ .debug_line    0x0000000000000000      0x2f4 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clz.o)
+ .debug_str     0x0000000000000000      0x767 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clz.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+mem              0x0000000000000000 0x0000000000bf0000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.memory         0x0000000000000000     0x2a60
+                0x0000000000000000                . = 0x0
+ start*(.text)
+ *(.text)
+ .text          0x0000000000000000      0x4ac firmware/start.o
+                0x00000000000004a6                hard_knn_pcpi
+ .text          0x00000000000004ac      0x3ea firmware/irq.o
+                0x00000000000004ac                irq
+ .text          0x0000000000000896      0x13c firmware/print.o
+                0x0000000000000896                print_chr
+                0x00000000000008b4                print_str
+                0x00000000000008e8                print_dec
+                0x000000000000097a                print_hex
+ .text          0x00000000000009d2      0x646 firmware/knn_pcpi.o
+                0x00000000000009d2                knn_pcpi
+                0x0000000000000b86                soft_L2
+                0x0000000000000d56                soft_vote
+ .text          0x0000000000001018      0x2c4 firmware/knn_mmap.o
+                0x0000000000001018                knn_mmap
+ .text          0x00000000000012dc      0x1c4 firmware/stats.o
+                0x00000000000013da                stats
+                0x0000000000001486                tick
+ *fill*         0x00000000000014a0        0x0 
+ .text          0x00000000000014a0      0x80c /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(divdf3.o)
+                0x00000000000014a0                __divdf3
+ .text          0x0000000000001cac      0x6ec /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldf3.o)
+                0x0000000000001cac                __muldf3
+ .text          0x0000000000002398       0x7c /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(fixunsdfsi.o)
+                0x0000000000002398                __fixunsdfsi
+ .text          0x0000000000002414       0xc8 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(floatsidf.o)
+                0x0000000000002414                __floatsidf
+ .text          0x00000000000024dc       0x24 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldi3.o)
+                0x00000000000024dc                __mulsi3
+ .text          0x0000000000002500       0xb4 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(div.o)
+                0x0000000000002500                __divsi3
+                0x0000000000002508                __udivsi3
+                0x0000000000002550                __umodsi3
+                0x0000000000002584                __modsi3
+ .text          0x00000000000025b4       0x4c /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clzsi2.o)
+                0x00000000000025b4                __clzsi2
+ .text          0x0000000000002600        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clz.o)
+ *(*)
+ .data          0x0000000000002600        0x0 firmware/start.o
+ .bss           0x0000000000002600        0x0 firmware/start.o
+ .rela.text     0x0000000000002600        0x0 firmware/start.o
+ .data          0x0000000000002600        0x0 firmware/irq.o
+ .bss           0x0000000000002600        0xc firmware/irq.o
+ .rodata        0x000000000000260c      0x16b firmware/irq.o
+ .comment       0x0000000000002777       0x11 firmware/irq.o
+                                         0x12 (size before relaxing)
+ .data          0x0000000000002788        0x0 firmware/print.o
+ .bss           0x0000000000002788        0x0 firmware/print.o
+ .rodata        0x0000000000002788       0x11 firmware/print.o
+ .comment       0x0000000000002799       0x12 firmware/print.o
+ .data          0x0000000000002799        0x0 firmware/knn_pcpi.o
+ .bss           0x0000000000002799        0x0 firmware/knn_pcpi.o
+ *fill*         0x0000000000002799        0x7 
+ .rodata        0x00000000000027a0       0xe0 firmware/knn_pcpi.o
+ .comment       0x0000000000002880       0x12 firmware/knn_pcpi.o
+ .data          0x0000000000002880        0x0 firmware/knn_mmap.o
+ .bss           0x0000000000002880        0x0 firmware/knn_mmap.o
+ .rodata        0x0000000000002880       0x1e firmware/knn_mmap.o
+ .comment       0x000000000000289e       0x12 firmware/knn_mmap.o
+ .data          0x000000000000289e        0x0 firmware/stats.o
+ .bss           0x000000000000289e        0x0 firmware/stats.o
+ *fill*         0x000000000000289e        0x2 
+ .rodata        0x00000000000028a0       0x45 firmware/stats.o
+ .comment       0x00000000000028e5       0x12 firmware/stats.o
+ .data          0x00000000000028e5        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(divdf3.o)
+ .bss           0x00000000000028e5        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(divdf3.o)
+ *fill*         0x00000000000028e5        0x3 
+ .rodata        0x00000000000028e8       0x3c /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(divdf3.o)
+ .comment       0x0000000000002924       0x12 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(divdf3.o)
+ .data          0x0000000000002924        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldf3.o)
+ .bss           0x0000000000002924        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldf3.o)
+ .rodata        0x0000000000002924       0x3c /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldf3.o)
+ .comment       0x0000000000002960       0x12 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldf3.o)
+ .data          0x0000000000002960        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(fixunsdfsi.o)
+ .bss           0x0000000000002960        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(fixunsdfsi.o)
+ .comment       0x0000000000002960       0x12 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(fixunsdfsi.o)
+ .data          0x0000000000002960        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(floatsidf.o)
+ .bss           0x0000000000002960        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(floatsidf.o)
+ .comment       0x0000000000002960       0x12 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(floatsidf.o)
+ .data          0x0000000000002960        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldi3.o)
+ .bss           0x0000000000002960        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldi3.o)
+ .data          0x0000000000002960        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(div.o)
+ .bss           0x0000000000002960        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(div.o)
+ .data          0x0000000000002960        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clzsi2.o)
+ .bss           0x0000000000002960        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clzsi2.o)
+ .comment       0x0000000000002960       0x12 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clzsi2.o)
+ .data          0x0000000000002960        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clz.o)
+ .bss           0x0000000000002960        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clz.o)
+ .rodata        0x0000000000002960      0x100 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clz.o)
+                0x0000000000002960                __clz_tab
+ .comment       0x0000000000002a60       0x12 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(_clz.o)
+                0x0000000000002a72                end = .
+LOAD firmware/start.o
+LOAD firmware/irq.o
+LOAD firmware/print.o
+LOAD firmware/knn_pcpi.o
+LOAD firmware/knn_mmap.o
+LOAD firmware/stats.o
+LOAD /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a
+OUTPUT(firmware/firmware.elf elf32-littleriscv)
