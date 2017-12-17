@@ -1,4 +1,4 @@
-`define LOG	1 
+//`define LOG	1 
 
 module KNN_PCPI(
 input           	    clk, resetn,

@@ -1,22 +1,21 @@
 #include "firmware.h"
-#define K						5
+#define K						7
 #define MAX_INT                 2147483647
 #define DATA_LENGTH             3073
 #define NUM_CLASS				10
 #define NUM_TEST_IMAGE			50
 #define NUM_TRAIN_IMAGE			950
 #define IMAGE_OFFSET 			0x00010000
-//#define SOFT_VOTE 				1
-//#define HARD_VOTE    			1
 
 int soft_L2(int test, int train);
 int soft_vote(unsigned int distances[NUM_TRAIN_IMAGE]);
 
 void knn_pcpi(void)
 {
-	unsigned distances[NUM_TRAIN_IMAGE];
+	unsigned int distances[NUM_TRAIN_IMAGE];
 	int right = 0;
 	int soft_label = 0, hard_label = 0;
+	int start, end, software_ticks, hardware_ticks;
 
 	for(int test_image_index = 0; test_image_index < NUM_TEST_IMAGE; test_image_index++){
 		//just an example of single test image!
@@ -32,8 +31,8 @@ void knn_pcpi(void)
 			print_dec(distances[i]);
 		*/		
 			// software version(very slow)
-		/*	distances[i] = soft_L2(test_image_index, i + NUM_TEST_IMAGE);
-			print_str("\nsoft : distances[");
+			//if(test_image_index == 11)distances[train_image_index] = soft_L2(test_image_index, train_image_index + NUM_TEST_IMAGE);
+		/*	print_str("\nsoft : distances[");
 			print_dec(i);
 			print_str("] = ");	
 			print_dec(dist);
@@ -43,10 +42,17 @@ void knn_pcpi(void)
 		
 		//TODO: implement hardware version of label voting
 		//you can use the algorithm we provided below, or any better algorithm you can think of
+		
+		start = tick();
 		soft_label = soft_vote(distances);
+		end = tick();
+		software_ticks += end - start;
 
+		start = tick();
 		hard_label = hard_knn_pcpi(0, 0);
-
+		end = tick();
+		hardware_ticks += end - start;
+		
 		int rightLabel = *(volatile uint32_t*)(IMAGE_OFFSET + (test_image_index) * DATA_LENGTH * 4);
 		
 		if(rightLabel == hard_label) right++;
@@ -73,9 +79,19 @@ void knn_pcpi(void)
 		print_str("----------------------------------------");
 	}
 
+	print_str("\nTotal software_vote_tick: ");
+	print_dec(software_ticks);
+	print_str("\n");
+
+	print_str("\nTotal hardware_vote_tick: ");
+	print_dec(hardware_ticks);
+	print_str("\n");
 
 	// compute accuracy
-	print_str("\naccuracy: ");
+	print_str("\nKNN(K: ");
+	print_dec(K);
+	print_str(")");
+	print_str("  accuracy: ");
 	print_dec(right / 50.0 * 100 );
 	print_str("%\n");
 }
@@ -97,16 +113,7 @@ int soft_L2(int test, int train){
 		red_diff = (red_test > red_train)?(red_test-red_train):(red_train-red_test);
 		green_diff = (green_test > green_train)?(green_test-green_train):(green_train-green_test);
 		blue_diff = (blue_test > blue_train)?(blue_test-blue_train):(blue_train-blue_test);
-	
-/*		print_str("\nbluetest: ");
-		print_dec(blue_test);
-		print_str(" bluetrain: ");
-        print_dec(blue_train);
-		print_str(" diff: ");
-		print_dec(blue_diff);
-		print_str(" ");
-		print_dec(blue_diff*blue_diff);
-*/
+
 		dist = dist + red_diff*red_diff + green_diff*green_diff + blue_diff*blue_diff; 
 	}
 	return dist;	 
