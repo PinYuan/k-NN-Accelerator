@@ -1,5 +1,5 @@
 ncverilog: 14.10-s005: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
-TOOL:	ncverilog	14.10-s005: Started on Dec 17, 2017 at 02:33:27 CST
+TOOL:	ncverilog	14.10-s005: Started on Dec 17, 2017 at 11:38:23 CST
 ncverilog
 	testbench_pcpi.v
 	knn_pcpi.v
@@ -17,10 +17,8 @@ soft:6438194
 soft:6684151 
 soft:6901393 
 soft:7043724 
-soft:7180450 
-soft:7308889 
 
-The result of test image soft_vote_knn [ 0 ]: 6
+The result of test image soft_vote_knn [ 0 ]: 4
 
 The result of test image hard_vote_knn [ 0 ]: 4
 
@@ -31,10 +29,8 @@ soft:12148801
 soft:12242330 
 soft:12508932 
 soft:12604369 
-soft:12613289 
-soft:12687783 
 
-The result of test image soft_vote_knn [ 1 ]: 2
+The result of test image soft_vote_knn [ 1 ]: 8
 
 The result of test image hard_vote_knn [ 1 ]: 8
 
@@ -45,10 +41,8 @@ soft:9198539
 soft:9670735 
 soft:9900836 
 soft:10042958 
-soft:10090536 
-soft:10299291 
 
-The result of test image soft_vote_knn [ 2 ]: 9
+The result of test image soft_vote_knn [ 2 ]: 8
 
 The result of test image hard_vote_knn [ 2 ]: 8
 
@@ -59,8 +53,6 @@ soft:4233613
 soft:4397501 
 soft:4567371 
 soft:4615592 
-soft:4894546 
-soft:4926524 
 
 The result of test image soft_vote_knn [ 3 ]: 6
 
@@ -73,8 +65,6 @@ soft:9578289
 soft:9926594 
 soft:10161663 
 soft:10433714 
-soft:10794723 
-soft:11326647 
 
 The result of test image soft_vote_knn [ 4 ]: 0
 
@@ -87,10 +77,8 @@ soft:9443854
 soft:9800999 
 soft:9904918 
 soft:10132375 
-soft:10474012 
-soft:10519891 
 
-The result of test image soft_vote_knn [ 5 ]: 4
+The result of test image soft_vote_knn [ 5 ]: 6
 
 The result of test image hard_vote_knn [ 5 ]: 6
 
@@ -101,8 +89,6 @@ soft:7946735
 soft:8123698 
 soft:8164494 
 soft:8449122 
-soft:8515426 
-soft:8624962 
 
 The result of test image soft_vote_knn [ 6 ]: 2
 
@@ -115,10 +101,8 @@ soft:10388549
 soft:10496489 
 soft:10532379 
 soft:10576156 
-soft:10796800 
-soft:10799325 
 
-The result of test image soft_vote_knn [ 7 ]: 4
+The result of test image soft_vote_knn [ 7 ]: 0
 
 The result of test image hard_vote_knn [ 7 ]: 0
 
@@ -129,8 +113,6 @@ soft:11550218
 soft:11858982 
 soft:11862511 
 soft:12199188 
-soft:12376071 
-soft:12413562 
 
 The result of test image soft_vote_knn [ 8 ]: 8
 
@@ -143,8 +125,6 @@ soft:10484079
 soft:10698681 
 soft:10898724 
 soft:11480713 
-soft:11505251 
-soft:11628046 
 
 The result of test image soft_vote_knn [ 9 ]: 0
 
@@ -157,14 +137,509 @@ soft:2010192
 soft:2677112 
 soft:2898614 
 soft:3029661 
-soft:3056396 
-soft:3185026 
 
 The result of test image soft_vote_knn [ 10 ]: 2
 
 The result of test image hard_vote_knn [ 10 ]: 2
 
 The answer of test image [ 10 ]: 4
-----------------------------------------Simulation interrupted at 1091117360 NS + 4
+----------------------------------------
+soft:10781520 
+soft:10893928 
+soft:11043237 
+soft:11082965 
+soft:11274971 
+
+The result of test image soft_vote_knn [ 11 ]: 8
+
+The result of test image hard_vote_knn [ 11 ]: 8
+
+The answer of test image [ 11 ]: 7
+----------------------------------------
+soft:8003062 
+soft:8779610 
+soft:8802074 
+soft:9193559 
+soft:9340099 
+
+The result of test image soft_vote_knn [ 12 ]: 8
+
+The result of test image hard_vote_knn [ 12 ]: 8
+
+The answer of test image [ 12 ]: 7
+----------------------------------------
+soft:10954353 
+soft:12830830 
+soft:13312139 
+soft:14049888 
+soft:14603430 
+
+The result of test image soft_vote_knn [ 13 ]: 4
+
+The result of test image hard_vote_knn [ 13 ]: 4
+
+The answer of test image [ 13 ]: 2
+----------------------------------------
+soft:8760723 
+soft:9193904 
+soft:9360168 
+soft:9365245 
+soft:9593729 
+
+The result of test image soft_vote_knn [ 14 ]: 0
+
+The result of test image hard_vote_knn [ 14 ]: 0
+
+The answer of test image [ 14 ]: 9
+----------------------------------------
+soft:5140861 
+soft:6964106 
+soft:7049828 
+soft:7179452 
+soft:7492668 
+
+The result of test image soft_vote_knn [ 15 ]: 8
+
+The result of test image hard_vote_knn [ 15 ]: 8
+
+The answer of test image [ 15 ]: 9
+----------------------------------------
+soft:6529830 
+soft:7281808 
+soft:7991002 
+soft:8536583 
+soft:8596993 
+
+The result of test image soft_vote_knn [ 16 ]: 0
+
+The result of test image hard_vote_knn [ 16 ]: 0
+
+The answer of test image [ 16 ]: 9
+----------------------------------------
+soft:5694300 
+soft:5695306 
+soft:5728702 
+soft:6263185 
+soft:6301700 
+
+The result of test image soft_vote_knn [ 17 ]: 6
+
+The result of test image hard_vote_knn [ 17 ]: 6
+
+The answer of test image [ 17 ]: 3
+----------------------------------------
+soft:9371846 
+soft:9462884 
+soft:9576983 
+soft:9629986 
+soft:10014817 
+
+The result of test image soft_vote_knn [ 18 ]: 6
+
+The result of test image hard_vote_knn [ 18 ]: 6
+
+The answer of test image [ 18 ]: 2
+----------------------------------------
+soft:6318100 
+soft:8106694 
+soft:8449288 
+soft:8583333 
+soft:8711779 
+
+The result of test image soft_vote_knn [ 19 ]: 4
+
+The result of test image hard_vote_knn [ 19 ]: 4
+
+The answer of test image [ 19 ]: 6
+----------------------------------------
+soft:5722845 
+soft:6327454 
+soft:7058509 
+soft:7301632 
+soft:7820594 
+
+The result of test image soft_vote_knn [ 20 ]: 0
+
+The result of test image hard_vote_knn [ 20 ]: 0
+
+The answer of test image [ 20 ]: 4
+----------------------------------------
+soft:18004536 
+soft:18598023 
+soft:19584974 
+soft:20028005 
+soft:20261779 
+
+The result of test image soft_vote_knn [ 21 ]: 2
+
+The result of test image hard_vote_knn [ 21 ]: 2
+
+The answer of test image [ 21 ]: 3
+----------------------------------------
+soft:3978316 
+soft:4471314 
+soft:4824844 
+soft:4852596 
+soft:4917007 
+
+The result of test image soft_vote_knn [ 22 ]: 6
+
+The result of test image hard_vote_knn [ 22 ]: 6
+
+The answer of test image [ 22 ]: 6
+----------------------------------------
+soft:3930779 
+soft:4348217 
+soft:4811786 
+soft:4861152 
+soft:4927417 
+
+The result of test image soft_vote_knn [ 23 ]: 4
+
+The result of test image hard_vote_knn [ 23 ]: 4
+
+The answer of test image [ 23 ]: 6
+----------------------------------------
+soft:6803659 
+soft:6901321 
+soft:7064076 
+soft:7224577 
+soft:7438588 
+
+The result of test image soft_vote_knn [ 24 ]: 2
+
+The result of test image hard_vote_knn [ 24 ]: 2
+
+The answer of test image [ 24 ]: 2
+----------------------------------------
+soft:7523555 
+soft:7646379 
+soft:7819137 
+soft:8427055 
+soft:8476723 
+
+The result of test image soft_vote_knn [ 25 ]: 8
+
+The result of test image hard_vote_knn [ 25 ]: 8
+
+The answer of test image [ 25 ]: 6
+----------------------------------------
+soft:6002040 
+soft:6822295 
+soft:7051635 
+soft:7243555 
+soft:7538396 
+
+The result of test image soft_vote_knn [ 26 ]: 2
+
+The result of test image hard_vote_knn [ 26 ]: 2
+
+The answer of test image [ 26 ]: 3
+----------------------------------------
+soft:6428344 
+soft:6563406 
+soft:6813120 
+soft:6934113 
+soft:7224580 
+
+The result of test image soft_vote_knn [ 27 ]: 2
+
+The result of test image hard_vote_knn [ 27 ]: 2
+
+The answer of test image [ 27 ]: 5
+----------------------------------------
+soft:7334299 
+soft:7341793 
+soft:7602181 
+soft:7692812 
+soft:7718259 
+
+The result of test image soft_vote_knn [ 28 ]: 4
+
+The result of test image hard_vote_knn [ 28 ]: 4
+
+The answer of test image [ 28 ]: 4
+----------------------------------------
+soft:15681011 
+soft:15683696 
+soft:16372423 
+soft:16387128 
+soft:16480390 
+
+The result of test image soft_vote_knn [ 29 ]: 0
+
+The result of test image hard_vote_knn [ 29 ]: 0
+
+The answer of test image [ 29 ]: 0
+----------------------------------------
+soft:4533947 
+soft:4555824 
+soft:4993341 
+soft:5186347 
+soft:5330044 
+
+The result of test image soft_vote_knn [ 30 ]: 4
+
+The result of test image hard_vote_knn [ 30 ]: 4
+
+The answer of test image [ 30 ]: 0
+----------------------------------------
+soft:6188121 
+soft:7029768 
+soft:7364824 
+soft:8071403 
+soft:8322913 
+
+The result of test image soft_vote_knn [ 31 ]: 8
+
+The result of test image hard_vote_knn [ 31 ]: 8
+
+The answer of test image [ 31 ]: 9
+----------------------------------------
+soft:12064776 
+soft:12418673 
+soft:13108936 
+soft:13114253 
+soft:13152491 
+
+The result of test image soft_vote_knn [ 32 ]: 6
+
+The result of test image hard_vote_knn [ 32 ]: 6
+
+The answer of test image [ 32 ]: 1
+----------------------------------------
+soft:4231402 
+soft:6615761 
+soft:7270015 
+soft:7495374 
+soft:7594292 
+
+The result of test image soft_vote_knn [ 33 ]: 2
+
+The result of test image hard_vote_knn [ 33 ]: 2
+
+The answer of test image [ 33 ]: 3
+----------------------------------------
+soft:6286882 
+soft:6931131 
+soft:7023501 
+soft:7251349 
+soft:7255476 
+
+The result of test image soft_vote_knn [ 34 ]: 2
+
+The result of test image hard_vote_knn [ 34 ]: 2
+
+The answer of test image [ 34 ]: 4
+----------------------------------------
+soft:8875611 
+soft:9478464 
+soft:9562037 
+soft:9595029 
+soft:9698389 
+
+The result of test image soft_vote_knn [ 35 ]: 2
+
+The result of test image hard_vote_knn [ 35 ]: 2
+
+The answer of test image [ 35 ]: 0
+----------------------------------------
+soft:6490657 
+soft:7712553 
+soft:7781683 
+soft:8149061 
+soft:8419310 
+
+The result of test image soft_vote_knn [ 36 ]: 0
+
+The result of test image hard_vote_knn [ 36 ]: 0
+
+The answer of test image [ 36 ]: 3
+----------------------------------------
+soft:5032714 
+soft:5054533 
+soft:5272662 
+soft:5366069 
+soft:5383405 
+
+The result of test image soft_vote_knn [ 37 ]: 2
+
+The result of test image hard_vote_knn [ 37 ]: 2
+
+The answer of test image [ 37 ]: 7
+----------------------------------------
+soft:10892011 
+soft:10960035 
+soft:11456861 
+soft:11741110 
+soft:12494642 
+
+The result of test image soft_vote_knn [ 38 ]: 8
+
+The result of test image hard_vote_knn [ 38 ]: 8
+
+The answer of test image [ 38 ]: 3
+----------------------------------------
+soft:4898358 
+soft:5165277 
+soft:5421907 
+soft:5829544 
+soft:6139581 
+
+The result of test image soft_vote_knn [ 39 ]: 4
+
+The result of test image hard_vote_knn [ 39 ]: 4
+
+The answer of test image [ 39 ]: 3
+----------------------------------------
+soft:7619857 
+soft:8837442 
+soft:9259714 
+soft:9608967 
+soft:9745278 
+
+The result of test image soft_vote_knn [ 40 ]: 2
+
+The result of test image hard_vote_knn [ 40 ]: 2
+
+The answer of test image [ 40 ]: 5
+----------------------------------------
+soft:8489667 
+soft:10142203 
+soft:10708839 
+soft:10795823 
+soft:11864533 
+
+The result of test image soft_vote_knn [ 41 ]: 0
+
+The result of test image hard_vote_knn [ 41 ]: 0
+
+The answer of test image [ 41 ]: 2
+----------------------------------------
+soft:2411968 
+soft:3160096 
+soft:3878209 
+soft:3932944 
+soft:3940615 
+
+The result of test image soft_vote_knn [ 42 ]: 4
+
+The result of test image hard_vote_knn [ 42 ]: 4
+
+The answer of test image [ 42 ]: 2
+----------------------------------------
+soft:9631028 
+soft:10636651 
+soft:10838931 
+soft:10974332 
+soft:10982920 
+
+The result of test image soft_vote_knn [ 43 ]: 2
+
+The result of test image hard_vote_knn [ 43 ]: 2
+
+The answer of test image [ 43 ]: 7
+----------------------------------------
+soft:7455815 
+soft:7646385 
+soft:7686772 
+soft:7695654 
+soft:8365328 
+
+The result of test image soft_vote_knn [ 44 ]: 6
+
+The result of test image hard_vote_knn [ 44 ]: 6
+
+The answer of test image [ 44 ]: 1
+----------------------------------------
+soft:11156029 
+soft:11558888 
+soft:11562402 
+soft:11619972 
+soft:11661148 
+
+The result of test image soft_vote_knn [ 45 ]: 6
+
+The result of test image hard_vote_knn [ 45 ]: 6
+
+The answer of test image [ 45 ]: 1
+----------------------------------------
+soft:10697561 
+soft:11398236 
+soft:12381102 
+soft:12505438 
+soft:12934313 
+
+The result of test image soft_vote_knn [ 46 ]: 0
+
+The result of test image hard_vote_knn [ 46 ]: 0
+
+The answer of test image [ 46 ]: 1
+----------------------------------------
+soft:3609909 
+soft:3735752 
+soft:3918159 
+soft:4046572 
+soft:4605380 
+
+The result of test image soft_vote_knn [ 47 ]: 0
+
+The result of test image hard_vote_knn [ 47 ]: 0
+
+The answer of test image [ 47 ]: 2
+----------------------------------------
+soft:5685558 
+soft:6481862 
+soft:6872396 
+soft:6886222 
+soft:7113029 
+
+The result of test image soft_vote_knn [ 48 ]: 2
+
+The result of test image hard_vote_knn [ 48 ]: 2
+
+The answer of test image [ 48 ]: 2
+----------------------------------------
+soft:13680079 
+soft:13980928 
+soft:14146697 
+soft:15221965 
+soft:15419157 
+
+The result of test image soft_vote_knn [ 49 ]: 0
+
+The result of test image hard_vote_knn [ 49 ]: 0
+
+The answer of test image [ 49 ]: 0
+----------------------------------------
+Total software_vote_tick: 25364988
+
+Total hardware_vote_tick: 4600
+
+KNN(K: 5)  accuracy: 16%
+
+Cycle counter ........468289469
+Instruction counter .. 6491329
+CPI: 72.97
+Status:DONE
+
+------------------------------------------------------------
+EBREAK instruction at 0x000004A4
+pc  000004A7    x8  00000000    x16 40300000    x24 00000003
+x1  00000474    x9  00000000    x17 00000000    x25 00000001
+x2  00300000    x10 20000000    x18 00000002    x26 00009002
+x3  DEADBEEF    x11 2000279C    x19 00000160    x27 00009002
+x4  DEADBEEF    x12 0000004F    x20 00000000    x28 00000000
+x5  000013A6    x13 0000004E    x21 00000015    x29 00000000
+x6  00000008    x14 00000045    x22 000004A4    x30 00000000
+x7  00000000    x15 000001E0    x23 000004A4    x31 000000C4
+------------------------------------------------------------
+Number of fast external IRQs counted: 0
+Number of slow external IRQs counted: 0
+Number of timer IRQs counted: 0
+TRAP after 468371021 clock cycles
+ALL TESTS PASSED.
+Simulation complete via $finish(1) at time 4683711310 NS + 1
+./testbench_pcpi.v:297 				$finish;
 ncsim> exit
-TOOL:	ncverilog	14.10-s005: Exiting on Dec 17, 2017 at 02:35:05 CST  (total: 00:01:38)
+TOOL:	ncverilog	14.10-s005: Exiting on Dec 17, 2017 at 11:44:39 CST  (total: 00:06:16)

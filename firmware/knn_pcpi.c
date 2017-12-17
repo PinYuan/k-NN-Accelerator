@@ -1,5 +1,5 @@
 #include "firmware.h"
-#define K						7
+#define K						5
 #define MAX_INT                 2147483647
 #define DATA_LENGTH             3073
 #define NUM_CLASS				10

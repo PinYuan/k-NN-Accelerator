@@ -30,14 +30,14 @@ TERM=xterm
 SHELL=/bin/tcsh
 MAKEFLAGS=
 COWARE_AUX_BIN=/usr/cad/synopsys/pa_virtualizer/cur/SLS/linux/common/bin
-SSH_CLIENT=192.168.75.200 57819 22
+SSH_CLIENT=192.168.75.200 58118 22
 COWARE_CXX_COMPILER=gcc-4.7.2
 SNPS_VIEW_CONFIG_PATH=/users/course/2017F/cs412500/dsd29/.synopsys/viewconfig:/usr/cad/synopsys/pa_virtualizer/cur/SLS/linux/IP:/usr/cad/synopsys/pa_virtualizer/cur/SLS/linux/common/etc/viewconfig
 SNPS_VP_DOC=/usr/cad/synopsys/pa_virtualizer/vJ-2014.12/Documentation
 LC_NUMERIC=en_US.UTF-8
 QTDIR=/usr/lib64/qt-3.3
 QTINC=/usr/lib64/qt-3.3/include
-SSH_TTY=/dev/pts/8
+SSH_TTY=/dev/pts/1
 CWR_USING_LNX_KERNEL_THREADS=1
 GROUP=cs412500
 USER=dsd29
@@ -83,12 +83,12 @@ LOGNAME=dsd29
 MACHTYPE=x86_64
 CVS_RSH=ssh
 QTLIB=/usr/lib64/qt-3.3/lib
-SSH_CONNECTION=192.168.75.200 57819 192.168.75.27 22
+SSH_CONNECTION=192.168.75.200 58118 192.168.75.27 22
 LC_CTYPE=en_US.UTF-8
 LESSOPEN=||/usr/bin/lesspipe.sh %s
 SHLIB_PATH=/usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX
 COWAREHT=linux
-DISPLAY=localhost:12.0
+DISPLAY=localhost:10.0
 SYN_MAN_DIR=/usr/cad/synopsys/synthesis/cur/doc/syn/man
 LC_TIME=en_US.UTF-8
 SOFT_MAN_DIR=/usr/cad/synopsys/coreconsultant/cur/doc/dware/man
@@ -109,9 +109,9 @@ argv[3]=picorv32.v
 argv[4]=+define+COMPRESSED_ISA
 argv[5]=+access+r
 110 profile - 100
-          CPU/Mem usage: 0.060 sys,  0.060 user,  81.40M sys,  0.00M vm
+          CPU/Mem usage: 0.060 sys,  0.060 user,  81.41M sys,  0.00M vm
 111 VC callback profile - scalar:0 vector:0
-112 Sun Dec 17 02:33:28 2017
+112 Sun Dec 17 11:38:23 2017
 113 pliAppInit
 114 *Verdi3* : Enable Parallel Dumping.
 115 pliAppMiscSet: New Sim Round
@@ -119,9 +119,9 @@ argv[5]=+access+r
 117 LIBSSCORE=found /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so through $LD_LIBRARY_PATH setting.
 118 argv[0]: testbench.fsdb
 119 argv[0]: 0
-120 argv[1]: (handle)0xa561dd8 testbench
+120 argv[1]: (handle)0xbe0de98 testbench
 121 Catch signal 11. Stack trace follows:
-#0  0xf7713430 in __kernel_vsyscall ()
+#0  0xf7719430 in __kernel_vsyscall ()
 #1  0x006f97f3 in __read_nocancel () from /lib/libc.so.6
 #2  0x0069348b in _IO_new_file_underflow () from /lib/libc.so.6
 #3  0x006951ab in _IO_default_uflow_internal () from /lib/libc.so.6
@@ -129,10 +129,10 @@ argv[5]=+access+r
 #5  0x006890cc in _IO_getline_info_internal () from /lib/libc.so.6
 #6  0x00689011 in _IO_getline_internal () from /lib/libc.so.6
 #7  0x00687f4a in fgets () from /lib/libc.so.6
-#8  0xf4e91c5a in ndpGetCallStack () from /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
-#9  0xf4ec8e13 in pliAppDbg_SigHandler () from /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
-#10 0xf4e9164d in catchSignalCB () from /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
+#8  0xf4e97c5a in ndpGetCallStack () from /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
+#9  0xf4ecee13 in pliAppDbg_SigHandler () from /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
+#10 0xf4e9764d in catchSignalCB () from /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius141.so
 #11 <signal handler called>
-#12 0x0a39c832 in ?? ()
-#13 0x0a40433c in ?? ()
+#12 0x0bc48912 in ?? ()
+#13 0x0bcb040c in ?? ()
 122 Sim process exit
